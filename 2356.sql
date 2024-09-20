@@ -58,7 +58,7 @@
 --   - They teach subject 3 in department 1.
 --   - They teach subject 4 in department 1.
 
---Solution
+--Solution - Teddy Demo
 select
 	teacher_id
 	,count(distinct(subject_id)) as cnt
